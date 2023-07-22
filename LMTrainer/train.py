@@ -1,3 +1,4 @@
+# Aman Rai, July 2023
 # Useful links
 # https://github.com/nichtdax/awesome-totally-open-chatgpt
 # https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-training
