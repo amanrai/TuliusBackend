@@ -146,7 +146,7 @@ print("Model Loaded.")
 
 # def get_trainable_params(model):
 #     """
-#     Prints the number of trainable parameters in the model.
+#     Prints the number of trainable parameters in the model. Borrowed from the net. 
 #     """
 #     trainable_params = 0
 #     all_param = 0

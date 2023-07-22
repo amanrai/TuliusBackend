@@ -6,6 +6,8 @@ from transformers import StoppingCriteria, StoppingCriteriaList
 from optimum.bettertransformer import BetterTransformer
 
 class StoppingCriteriaSub(StoppingCriteria):
+    # Borrowed from Stability LM.
+
     def __init__(self, stops = []):
       super().__init__()
       self.stops = stops
