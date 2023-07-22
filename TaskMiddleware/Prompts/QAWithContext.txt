@@ -1,0 +1,4 @@
+{user_handle} {question} 
+Answer the question from the context below:
+{context}
+{bot_handle}

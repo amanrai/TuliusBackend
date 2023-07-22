@@ -1,0 +1,6 @@
+{user_handle} 
+{question}
+Here is some additional information:
+{context}
+If the information does not cover the question, say 'I don't know'.
+{bot_handle} 

@@ -1,0 +1,7 @@
+torch
+transformers
+datasets
+optimum
+sentence-transformers
+sentencepiece
+einops

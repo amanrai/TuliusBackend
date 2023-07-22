@@ -1,0 +1,8 @@
+<human>:
+<bot>:
+User:
+Assistant:
+<|USER|>
+<|ASSISTANT|>
+<|SYSTEM|>
+<|endoftext|>

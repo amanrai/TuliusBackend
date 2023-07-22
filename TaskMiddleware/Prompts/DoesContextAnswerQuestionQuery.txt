@@ -1,0 +1,9 @@
+{instruction_guideline}
+### Instruction:
+Here is some context information:
+{context}
+This is the user's question:
+{question}
+If the information does not cover the question, say 'No'.
+If the information covers the question, say 'Yes'
+### Response

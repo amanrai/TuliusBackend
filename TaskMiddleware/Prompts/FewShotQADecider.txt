@@ -1,0 +1,54 @@
+{system_prompt}
+{user_handle}
+Here are the notes I have taken so far:
+New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT). New Delhi is the seat of all three branches of the Government of India, hosting the Rashtrapati Bhavan, Sansad Bhavan, and the Supreme Court.
+New Delhi is a municipality within the NCT, administered by the NDMC, which covers mostly Lutyens' Delhi and a few adjacent areas. The municipal area is part of a larger administrative district, the New Delhi district.
+
+--end of notes. 
+
+{user_handle} I want to know whether the question 'What is the capital of Azerbaijan?' can be answered from these notes. If you don't get the answer right, I will fail. And that will be very bad. 
+Please tell me whether I can answer this question if I only have these notes.
+
+{bot_handlle}The question is about the country of Azerbaijan and the notes are about New Delhi, which is in India. So, no.<|endoftext|>
+
+{system_prompt}
+{user_handle}
+Here are the notes I have taken so far:
+A black hole is a region of spacetime where gravity is so strong that nothing, including light or other electromagnetic waves, has enough energy to escape it.[2] 
+The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole.[3][4] The boundary of no escape is called the event horizon. 
+Although it has a great effect on the fate and circumstances of an object crossing it, it has no locally detectable features according to general relativity.[5] 
+In many ways, a black hole acts like an ideal black body, as it reflects no light.[6][7] 
+Moreover, quantum field theory in curved spacetime predicts that event horizons emit Hawking radiation, with the same spectrum as a black body of a temperature inversely proportional to its mass. 
+This temperature is of the order of billionths of a kelvin for stellar black holes, making it essentially impossible to observe directly.
+
+--end of notes. 
+
+{user_handle} I want to know whether the question 'What is the prokaryote-eukaryote energy gap?' can be answered from these notes. If you don't get the answer right, I will fail. And that will be very bad. 
+Please tell me whether I can answer this question if I only have these notes.
+
+{bot_handlle}The question is about biology and the notes are about physics. So no.<|endoftext|>
+
+{system_prompt}
+{user_handle}
+Here are the notes I have taken so far:
+Black holes of stellar mass form when massive stars collapse at the end of their life cycle. After a black hole has formed, it can grow by absorbing mass from its surroundings. 
+Supermassive black holes of millions of solar masses (M☉) may form by absorbing other stars and merging with other black holes. 
+There is consensus that supermassive black holes exist in the centres of most galaxies.
+
+--end of notes. 
+
+{user_handle} I want to know whether the question 'How do supermassive blackholes form?' can be answered from these notes. If you don't get the answer right, I will fail. And that will be very bad. 
+Please tell me whether I can answer this question if I only have these notes.
+
+{bot_handlle}The question is about super massive black holes and the notes refer to supermassive blackholes. So yes.<|endoftext|>
+
+{system_prompt}
+{user_handle} 
+Here are the notes I have taken so far:
+{context}
+---end of notes.
+
+{user_handle} I want to know whether the question '{question}' can be answered from these notes. If you don't get the answer right, I will fail. And that will be very bad. 
+Please tell me whether I can answer this question if I only have these notes.
+
+{bot_handlle}
