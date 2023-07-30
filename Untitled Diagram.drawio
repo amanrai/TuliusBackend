@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T04:07:43.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="vjZsCQW8YwHTcOgDDKM5" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-30T04:08:06.000Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="Z7aZOTlTqeYCqB5uCo41" version="21.6.6" type="github">
   <diagram name="Page-1" id="8LaT6ws6c8OMBcNahulS">
     <mxGraphModel dx="2439" dy="1371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="j_EAcNciyhwxROLDHDnN-7" value="Embedder" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1004.5" y="639" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j_EAcNciyhwxROLDHDnN-8" value="Grapher (v2)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="j_EAcNciyhwxROLDHDnN-8" value="RDF Grapher (v2)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1183.5" y="639" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j_EAcNciyhwxROLDHDnN-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="54NrBOD5PA2svNVdtnnh-1" target="j_EAcNciyhwxROLDHDnN-3">
