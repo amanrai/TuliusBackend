@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T03:31:18.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="HzM8k1oVC3YY6BwCG_gl" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-30T03:53:15.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="HpihcqmIuHlqr3pli6oI" version="21.6.6" type="github">
   <diagram name="Page-1" id="8LaT6ws6c8OMBcNahulS">
     <mxGraphModel dx="1474" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
@@ -10,16 +10,16 @@
         <mxCell id="54NrBOD5PA2svNVdtnnh-1" value="Ingestion" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="740" y="574" width="660" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="54NrBOD5PA2svNVdtnnh-6" value="Preprocessor Layer" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="54NrBOD5PA2svNVdtnnh-6" value="Preprocessor" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="564" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pPt3QI8uL8kGYXBV0wag-3" value="Extraction Layer" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="687" y="348" width="766" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pPt3QI8uL8kGYXBV0wag-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.069;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pPt3QI8uL8kGYXBV0wag-3" target="54NrBOD5PA2svNVdtnnh-6" edge="1">
+        <mxCell id="pPt3QI8uL8kGYXBV0wag-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.069;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pPt3QI8uL8kGYXBV0wag-3" target="j_EAcNciyhwxROLDHDnN-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1296" y="368" as="sourcePoint" />
-            <mxPoint x="1068" y="441" as="targetPoint" />
+            <mxPoint x="740" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="54NrBOD5PA2svNVdtnnh-2" value="S3" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -101,6 +101,15 @@
         </mxCell>
         <mxCell id="j_EAcNciyhwxROLDHDnN-21" value="Indexing API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_EAcNciyhwxROLDHDnN-22" value="Metadata Preprocessor" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_EAcNciyhwxROLDHDnN-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j_EAcNciyhwxROLDHDnN-22" target="54NrBOD5PA2svNVdtnnh-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="420" as="sourcePoint" />
+            <mxPoint x="750" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
